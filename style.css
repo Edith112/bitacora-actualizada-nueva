@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+          .amarante-regular {
+                font-family: "Amarante", serif;
+                font-weight: 400;
+                font-style: normal;
+                }
+            h1{
+                color: #ffffff;
+                background-color: rgba(255, 0, 255, 0.096);
+                font-size: 95px; /*Tamaño de la letra*/
+                font-family: "Amarante", serif;
+                text-align: center;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                padding-top: -10px;
+                padding-bottom: -10px;
+            }
+            h2{
+                color: #94dbfc;
+                font-size: 40px; /*Tamaño de la letra*/
+                font-family: "Amarante", serif;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 15px;
+                padding-top: -10px;
+                padding-bottom: -10px;
+            }
+            h3{
+                color: #cd94fc;
+                font-size: 25px; /*Tamaño de la letra*/
+                font-family: "Amarante", serif;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 15px;
+                padding-top: -10px;
+                padding-bottom: -10px;
+            }
+            h4{
+                color: #cd94fc;
+                font-size: 25px; /*Tamaño de la letra*/
+                font-family: "Amarante", serif;
+                text-align: center;
+            }
+            h6{
+                color: rosybrown;
+                font-family: "Amarante", serif;
+                text-align: center;
+                margin: 0px;
+                padding-bottom: 40px;
+                padding-top: 50px;
+                font-size: 25px;
+            }
+            .hiper{
+                color: rosybrown;
+                text-align: center;
+                font-size: 40px;
+                padding-bottom: 20px;
+            }
+            li{
+                margin-left: 720px;
+                margin-right: 720px;
+                font-size: 20px;
+                color: rosybrown;
+            }
+            .pagina{
+                text-align: center;
+                color: #ffffff;
+                font-size: 15px;
+            }
+            .contenido{
+                text-align: center;
+            }
+            .container{
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                gap: 5px;
+                padding: 50px;
+            }
+            .float1{
+                width: 50%;
+                float: left;
+                padding: 20px;
+            } 
+            #video{
+                margin-left: 700px;
+                margin-right: 700px;
+                box-shadow: 1px 1px 41px 8px rgba(211, 53, 53, 0.6);
+            }
+            #mapa{
+                justify-content: center;
+                box-shadow: 1px 1px 41px 8px rgba(211, 53, 53, 0.6);
+            }
+            .cuadrado{
+            width: 450px;
+            height: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            padding: 10px;
+            border: 33px solid #403292;
+            box-shadow: 18px 24px 63px 18px rgb(135, 20, 189);
+            background-color: rgba(166, 115, 207, 0.726);
+            border-radius: 35px;
+            background: linear-gradient(0deg, #8f90bc 0%, #ffdcf0 100%);
+            margin-top: 80px;
+            margin-bottom: 80px;
+            }
+            .parallax{
+            background-image: url("https://fastcdn.hoyoverse.com/content-v2/plat/159364/c94d695cf703ea4f185b87b69dbc9d11_559163480569304486.jpg");
+            height: 500px;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .static{
+            width: 100px;
+            height: 100px;
+            color: white;
+            padding: 10px;
+            background-color: darkgreen;
+            position: static;
+        }
+        
+        .fixed{
+            width: 100px;
+            height: 100px;
+            color: white;
+            padding: 10px;
+            background-color: rgb(222, 78, 227);
+            position: fixed;
+        }
+        .menu{
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            overflow: hidden;
+            background-color: rgba(68, 1, 54, 0.788);
+            text-align: center;
+        }
+        a{
+            font-family: "Amarante", serif;
+            text-decoration: none;
+            color: rgb(18, 140, 211);
+            padding: 14px;
+            font-size: 17px;
+        }
+        .box1{
+            width: 150px;
+            height: 150px;
+            padding: 10px;
+            background-color: purple;
+            position: absolute;
+            z-index: 1;
+        }
+        .box1{
+            width: 150px;
+            height: 150px;
+            padding: 10px;
+            background-color: purple;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .box2{
+            width: 150px;
+            height: 150px;
+            padding: 10px;
+            background-color: rgb(252, 155, 252);
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            z-index: 0;
+        }
+
+        .caja{
+            background-color: rgb(202, 38, 139);
+            color: blue;
+            padding: 10px;
+            margin: 5px;
+            width: 100px;
+            height: 100px;
+            border-radius: 25px;
+            /*display: block;*/
+            /*display: inline;*/
+            display: inline-block;
+            /*display: none;*/
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        table{
+            border: 1px solid rgb(255, 255, 255);
+        }
+        td{
+           border: 1px solid rgb(255, 255, 255);
+        }
+        th{
+           border: 1px solid rgb(255, 255, 255);
+        }
+
+        .codigos {
+            text-align: center;
+        }
+
+        .hex {
+            background-color: #33279c;
+            color: white;
+        }
+ 
+        .keyword {
+            background-color: rgb(86, 0, 167);
+            color: rgb(255, 255, 255);
+        }
+ 
+        .rgb {
+            /*Define los niveles de Rojo, Verde y Azul*/
+            background-color: rgb(139, 33, 68);
+            color: white;
+        }
+ 
+        .rgba {
+            background-color: rgba(231, 60, 146, 0.575);
+            color: white;
+        }
+ 
+        .hsl {
+            /*Se basa en el círculo cromatico
+        h = Hue (tono, 0–360°, como un ángulo en el círculo de color)
+        s = Saturation (saturación, 0%–100%)
+        l = Lightness (luminosidad, 0%–100%)
+        */
+            background-color: hsl(246, 46%, 56%);
+            color: white;
+        }
+ 
+        .hsla {
+            background-color: hsla(300, 100%, 50%, 0.219);
+            color: white;
+        }
+
+        .forma{
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            color: #8f90bc;
+            }
+
+        #caja {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(90, 33, 156);
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+        }
+ 
+    /* Animaciones individuales */
+        .mover {
+            animation: moverAnim 3s infinite ease-in-out;
+        }
+    
+        .escalar {
+            animation: escalarAnim 3s infinite ease-in-out;
+        }
+    
+        .rotar {
+            animation: rotarAnim 3s infinite linear;
+        }
+    
+        .color {
+            animation: colorAnim 3s infinite ease-in-out;
+        }
+ 
+ 
+    /* Keyframes */
+    @keyframes moverAnim {
+        0% {
+            transform: translateX(0);
+        }
+ 
+        100% {
+            transform: translateX(150px);
+        }
+    }
+ 
+    @keyframes escalarAnim {
+        0% {
+            transform: scale(1);
+        }
+ 
+        100% {
+            transform: scale(1.5);
+        }
+    }
+ 
+    @keyframes rotarAnim {
+        0% {
+            transform: rotate(0deg);
+        }
+ 
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+ 
+    @keyframes colorAnim {
+        0% {
+            background-color: rgb(66, 53, 235);
+        }
+ 
+        100% {
+            background-color: rgb(115, 17, 180);
+        }
+    }
